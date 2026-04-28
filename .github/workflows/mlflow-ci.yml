@@ -1,6 +1,7 @@
-ame: CI/CD para ML con MLflow
+name: CI/CD para ML con MLflow
 
 on:
+  workflow_dispatch:   # 🔹 habilita ejecución manual
   push:
     branches: [main]
 
